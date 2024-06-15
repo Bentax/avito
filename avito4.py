@@ -1,6 +1,6 @@
 def rename_file(img_filename):
     # Извлекаем данные из имени файла
-    prefix, date_time, extension = img_filename.split('.')
+    date_time, extension = img_filename.split('.')
     date_part = date_time.split('_')[1]  # извлекаем дату-время часть
     
     year = date_part[:4]
